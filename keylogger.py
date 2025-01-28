@@ -14,6 +14,7 @@ try:
     from email.mime.base import MIMEBase
     from email.mime.multipart import MIMEMultipart
     from email.mime.text import MIMEText
+    from pynput import keyboard
     import glob
 except ModuleNotFoundError:
     from subprocess import call
